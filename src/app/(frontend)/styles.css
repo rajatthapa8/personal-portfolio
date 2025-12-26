@@ -1,7 +1,7 @@
-:root {
-  --font-mono: 'Roboto Mono', monospace;
+@import 'tailwindcss';
+body {
+  @apply font-sans;
 }
-
 * {
   box-sizing: border-box;
 }
@@ -21,7 +21,6 @@ body,
 }
 
 body {
-  font-family: system-ui;
   font-size: 18px;
   line-height: 32px;
 
